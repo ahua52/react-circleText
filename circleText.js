@@ -97,7 +97,7 @@ export function circleText(options) {
             for (i = 0; i < letters.length; i++) {
                 tw += letters[i].offsetWidth;
             }
-            debugger;
+
             minRadius = (tw / Math.PI) / 2 + ch;
             
             if (settings.fluid && !settings.fitText) {
